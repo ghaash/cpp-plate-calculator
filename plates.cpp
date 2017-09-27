@@ -31,8 +31,11 @@ int main()
 	 * So, just solve the problem for half the weight and apply that set of weights to each side
 	*/
 
-	//out for quarters, dimes, nickels, pennies
+	//out for 45s, 35s, 25s, 15s, 10s, 5s, 1s
+
+	//std::cout << "45's: " << (fortyFives-45) / 45; is possible make those changes
 	std::cout << "45's: " << fortyFives << std::endl;
+
 	std::cout << "35's: " << thirtyFives << std::endl;
 	std::cout << "25's: " << twentyFives << std::endl;
 	std::cout << "10's: " << tens << std::endl;
