@@ -18,6 +18,9 @@ int main()
 	//output for weight
 	std::cout << "Your plates will be:" << std::endl;
 
+	//divided weight by 2
+	weight = weight/2
+
 	//algorithm for plates
 	fortyFives = (weight-45) / 45;
 	thirtyFives = (weight % 45) / 35;
