@@ -19,10 +19,10 @@ int main()
 	std::cout << "Your plates will be:" << std::endl;
 
 	//divided weight by 2
-	weight = weight/2
+//	weight = weight/2;
 
 	//algorithm for plates
-	fortyFives = (weight-45) / 45;
+	fortyFives = ((weight/2)-45) / 45;
 	thirtyFives = (weight % 45) / 35;
 	twentyFives = ((weight % 45) % 35) / 25;
 	tens = (((weight % 45) % 35) % 25) / 10;
@@ -37,6 +37,7 @@ int main()
 	//out for 45s, 35s, 25s, 15s, 10s, 5s, 1s
 
 	//std::cout << "45's: " << (fortyFives-45) / 45; is possible make those changes
+	std::cout << "Here are the plates you need to put on both sides of the bar." << std::endl;
 	std::cout << "45's: " << fortyFives << std::endl;
 
 	std::cout << "35's: " << thirtyFives << std::endl;
