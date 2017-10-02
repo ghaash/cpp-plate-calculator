@@ -22,7 +22,7 @@ int main()
 //	weight = weight/2;
 
 	//algorithm for plates
-	fortyFives = ((weight/2)-45) / 45;
+	fortyFives = ((weight-45)/2) / 45;
 	thirtyFives = (weight % 45) / 35;
 	twentyFives = ((weight % 45) % 35) / 25;
 	tens = (((weight % 45) % 35) % 25) / 10;
