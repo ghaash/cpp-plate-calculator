@@ -28,6 +28,7 @@ int main()
 	tens = (((weight % 45) % 35) % 25) / 10;
 	fives = ((((weight % 45) % 35) % 25) % 10) / 5;
 	ones = (((((weight % 45) % 35) % 25) % 10) % 5) / 1;
+//	halves = ((((((weight % 45) % 35) % 25) % 10) % 5) % 1) / 0.5;
 
 	/*if elseif else logic
 	 * any variable has to be == 2
