@@ -28,7 +28,7 @@ int main()
 	tens = (((weight % 45) % 35) % 25) / 10;
 	fives = ((((weight % 45) % 35) % 25) % 10) / 5;
 	ones = (((((weight % 45) % 35) % 25) % 10) % 5) / 1;
-//	halves = ((((((weight % 45) % 35) % 25) % 10) % 5) % 1) / 0.5;
+	halves = ((((((weight % 45) % 35) % 25) % 10) % 5) % 1) / 0.5;
 
 	/*if elseif else logic
 	 * any variable has to be == 2
@@ -46,7 +46,7 @@ int main()
 	std::cout << "10's: " << tens << std::endl;
 	std::cout << "5's: " << fives << std::endl;
 	std::cout << "1's: " << ones << std::endl;
-//	std::count << ".5's: " << halves << std::endl;
+	std::cout << ".5's: " << halves << std::endl;
 
 	return 0;
 }
