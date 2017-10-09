@@ -40,7 +40,6 @@ int main()
 	//std::cout << "45's: " << (fortyFives-45) / 45; is possible make those changes
 	std::cout << "Here are the plates you need to put on both sides of the bar." << std::endl;
 	std::cout << "45's: " << fortyFives << std::endl;
-
 	std::cout << "35's: " << thirtyFives << std::endl;
 	std::cout << "25's: " << twentyFives << std::endl;
 	std::cout << "10's: " << tens << std::endl;
