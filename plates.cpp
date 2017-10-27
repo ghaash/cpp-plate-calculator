@@ -48,4 +48,6 @@ int main()
 	std::cout << ".5's: " << halves << std::endl;
 
 	return 0;
+
+	//add gui? ask wade about C++ libraries
 }
